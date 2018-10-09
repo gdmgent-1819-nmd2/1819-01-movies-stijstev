@@ -1,4 +1,6 @@
 .card-base {
+    margin: 0;
+    padding: 0;
     background-color: white;
     width: 100%;
     align-items: stretch !important;
@@ -12,6 +14,20 @@
     overflow: hidden;
 }
 
-.card-img {
-    width: 110%;
+.card-image {
+    width: 100%;
+}
+
+.card-text-content {
+    display: flex;
+    flex-direction: column;
+}
+.card-text-content > h1 {
+    text-transform: uppercase;
+}
+.card-text-content ul {
+    margin: 0;
+    padding: 0;
+    flex-flow: row;
+    list-style-type: none;
 }
