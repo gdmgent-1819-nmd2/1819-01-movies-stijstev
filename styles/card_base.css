@@ -7,3 +7,11 @@
     border-radius: 1em;
     overflow: hidden;
 }
+
+.card-img {
+    overflow: hidden;
+}
+
+.card-img {
+    width: 110%;
+}
