@@ -14,10 +14,6 @@
     overflow: hidden;
 }
 
-.card-image {
-    width: 100%;
-}
-
 .card-text-content {
     display: flex;
     flex-direction: column;
