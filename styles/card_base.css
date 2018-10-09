@@ -1,0 +1,9 @@
+.card-base {
+    background-color: white;
+    width: 100%;
+    align-items: stretch !important;
+    margin: 1vw;
+    box-shadow: var(--shadow-main);
+    border-radius: 1em;
+    overflow: hidden;
+}

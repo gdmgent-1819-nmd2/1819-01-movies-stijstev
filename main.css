@@ -1,0 +1,18 @@
+/* Master CSS file. Styles spread per component */
+
+/* Colors */
+@import url("./styles/colors.css");
+
+/* Typography */
+@import url("./styles/typography.css");
+
+/* Shadow */
+@import url("./styles/shadow.css");
+
+/* Cards */
+@import url("./styles/card_base.css");
+@import url("./styles/card_desktop.css");
+@import url("./styles/card_mobile.css");
+
+/* General */
+@import url("./styles/general.css");

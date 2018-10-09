@@ -1,0 +1,4 @@
+:root {
+    /* h-offset v-offset blur spread color |inset|initial|inherit; */
+    --shadow-main: 0 2px 6px 2px hsla(0,0%,0%,0.2);
+}

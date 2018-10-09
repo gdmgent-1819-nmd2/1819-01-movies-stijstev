@@ -1,0 +1,4 @@
+.row > div {
+    display: flex;
+    align-items: stretch !important;
+}
