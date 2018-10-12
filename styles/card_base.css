@@ -1,16 +1,11 @@
 .card-base {
-    margin: 0;
+    margin: 1vh;
     padding: 0;
     background-color: white;
     width: 100%;
     align-items: stretch !important;
-    margin: 1vw;
     box-shadow: var(--shadow-main);
     border-radius: 1em;
-    overflow: hidden;
-}
-
-.card-img {
     overflow: hidden;
 }
 
@@ -27,3 +22,39 @@
     flex-flow: row;
     list-style-type: none;
 }
+
+.card-img {
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+}
+
+@media (min-width: 540px) {
+    .card-base {
+        max-height: 35vh !important;
+    }
+}
+
+
+/* @media (max-width: 540px) {
+    .img-desktop {
+        display: none;
+    }
+}
+@media (min-width: 540px) {
+    .img-mobile {
+        display: none;
+    }
+    .img-desktop {
+        display: block;
+    }
+}
+
+@media (min-width: 960px) {
+    .img-mobile {
+        display: block;
+    }
+    .img-desktop {
+        display: none;
+    }
+} */
