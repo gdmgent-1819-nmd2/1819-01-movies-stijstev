@@ -1,0 +1,28 @@
+.card-button {
+    border-radius: 1em;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-button-buy {
+    background-color: var(--color-main);
+    text-transform: uppercase;
+    color: white;
+}
+
+.card-button-buy a {
+    color: white;
+}
+
+@media (min-width: 540px) {
+    .card-button {
+        width: 50%;
+    }
+}
+
+.card-button:hover {
+    background-color: var(--color-main-light);
+}
+.card-button:active {
+    background-color: var(--color-main-dark)
+}

@@ -8,3 +8,9 @@
         max-width: 65vw !important;
     }
 }
+
+@media (min-width: 720px) {
+    .container-fluid {
+        max-width: 80vw !important;
+    }
+}

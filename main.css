@@ -11,8 +11,8 @@
 
 /* Cards */
 @import url("./styles/card_base.css");
-@import url("./styles/card_desktop.css");
-@import url("./styles/card_mobile.css");
 
 /* General */
 @import url("./styles/general.css");
+@import url("./styles/button.css");
+@import url("./styles/footer.css")
