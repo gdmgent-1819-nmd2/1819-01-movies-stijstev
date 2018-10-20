@@ -15,4 +15,5 @@
 /* General */
 @import url("./styles/general.css");
 @import url("./styles/button.css");
-@import url("./styles/footer.css")
+@import url("./styles/footer.css");
+@import url("./styles/nav.css")

@@ -2,9 +2,19 @@
     margin-top: 5vh;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    max-height: 4vh;
+    max-height: 10vh;
+    overflow: hidden;
+    display: flex;
 }
 
 .footer img {
+    width: 100%;
+    flex-direction: row !important;
+    align-self: flex-end !important;
+}
 
+@media (min-width: 540px) {
+    .footer img {
+        width: 20%;
+    }
 }

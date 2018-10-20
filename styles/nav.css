@@ -1,0 +1,12 @@
+nav {
+    margin-bottom: 5vh;
+}
+nav img {
+    width: 40vw;
+}
+
+@media (min-width: 540px) {
+    nav img {
+        width: 13vw;
+    }
+}
